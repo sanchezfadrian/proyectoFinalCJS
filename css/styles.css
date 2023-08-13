@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  
+  .imageContainer {
+    overflow: hidden;
+  }
+  
+  .imageTransform {
+    transition: 500ms;
+  }
+  
+  .imageTransform:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  .frontFormat {
+    background-color: rgba(17, 17, 17, 0.9803921569);
+    color: rgba(219, 219, 219, 0.8980392157);
+    border-radius: 50px;
+  }
+  .frontFormat p {
+    text-align: center;
+    padding-block: 20px;
+  }
+  
+  .mainFormat {
+    background-color: white;
+    color: rgba(17, 17, 17, 0.7333333333);
+    margin-top: 20px;
+    text-align: center;
+  }
+  .mainFormat #travelImage {
+    margin-block: 20px;
+  }
+  
+  .footerFormat {
+    background-color: rgba(17, 17, 17, 0.9803921569);
+    color: white;
+    text-align: center;
+    padding-block: 20px;
+  }
+  .footerFormat h5 {
+    line-height: 3;
+  }
+  .footerFormat p {
+    line-height: 0.75;
+  }
+  
+  .formButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+  }
+  .formButton button {
+    background-color: #721f0a;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-inline: 10px;
+    cursor: pointer;
+    transition: 250ms;
+  }
+  .formButton button:hover {
+    background-color: #cf3913;
+    transform: scale(1.1);
+  }
+  
+  .bookingForm {
+    background-color: white;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 10px;
+    color: rgba(17, 17, 17, 0.7333333333);
+    padding-block: 20px;
+    margin-block: 20px;
+  }
+  
+  .servicesCardImage {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .galeryFormat {
+    height: auto;
+    max-width: 700px;
+    overflow: hidden;
+    margin-block: 30px;
+  }
+  
+  .serviceCards {
+    margin-block: 20px;
+  }
+
+  .select{
+    opacity: 1;
+  }
+
+  .unSelect{
+    opacity: 0.1;
+  }
