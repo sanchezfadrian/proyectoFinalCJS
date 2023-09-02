@@ -9,37 +9,15 @@
     vertical-align: baseline;
   }
   
-  .imageContainer {
-    overflow: hidden;
-  }
-  
-  .imageTransform {
-    transition: 500ms;
-  }
-  
-  .imageTransform:hover {
-    transform: scale(1.05);
-    opacity: 0.9;
-  }
-  
   .frontFormat {
     background-color: rgba(17, 17, 17, 0.9803921569);
     color: rgba(219, 219, 219, 0.8980392157);
     border-radius: 50px;
   }
+
   .frontFormat p {
     text-align: center;
     padding-block: 20px;
-  }
-  
-  .mainFormat {
-    background-color: white;
-    color: rgba(17, 17, 17, 0.7333333333);
-    margin-top: 20px;
-    text-align: center;
-  }
-  .mainFormat #travelImage {
-    margin-block: 20px;
   }
   
   .footerFormat {
@@ -48,9 +26,11 @@
     text-align: center;
     padding-block: 20px;
   }
+
   .footerFormat h5 {
     line-height: 3;
   }
+
   .footerFormat p {
     line-height: 0.75;
   }
@@ -61,6 +41,7 @@
     align-items: center;
     padding-block: 20px;
   }
+
   .formButton button {
     background-color: #721f0a;
     color: white;
@@ -71,6 +52,7 @@
     cursor: pointer;
     transition: 250ms;
   }
+
   .formButton button:hover {
     background-color: #cf3913;
     transform: scale(1.1);
@@ -84,27 +66,7 @@
     padding-block: 20px;
     margin-block: 20px;
   }
-  
-  .servicesCardImage {
-    max-height: 500px;
-    overflow: hidden;
-  }
-  
-  .galeryFormat {
-    height: auto;
-    max-width: 700px;
-    overflow: hidden;
-    margin-block: 30px;
-  }
-  
-  .serviceCards {
-    margin-block: 20px;
-  }
 
-  .select{
-    opacity: 1;
-  }
-
-  .unSelect{
-    opacity: 0.1;
+  .seleccionado{
+    opacity: 0.5;
   }
