@@ -48,7 +48,7 @@
     padding: 5px 20px;
     border: none;
     border-radius: 10px;
-    margin-inline: 10px;
+    margin: 10px;
     cursor: pointer;
     transition: 250ms;
   }

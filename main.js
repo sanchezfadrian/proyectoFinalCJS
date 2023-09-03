@@ -57,6 +57,18 @@ btnReserva.addEventListener("click",crearReserva)
 btnBorrar.addEventListener("click",borrarDatos)
 btnRecuperar.addEventListener("click",recuperarDatos)
 
+setTimeout(()=> {
+    Swal.fire({
+        title: "Disfruta de nuestros servicios",
+        html: "<br>Sala de masajes con un amplio menú de masajes y terapias naturales.",
+        imageUrl: "img/servicios.jpg",
+        imageHeight: 200,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3500
+    })
+   }, 2000)
+
 function seleccionCabaña(numeroTarjeta) {
     datosReserva.idCabaña = numeroTarjeta
     tarjetasCabaña.forEach((tarjeta, index) => {
@@ -83,6 +95,7 @@ async function crearReserva(e) {
             reservas.push(datosReserva)
             console.log(reservas)
             mensajeAlerta("Reserva efectuada exitosamente", "success")
+            borrarDatos()
         }
     }
 }
